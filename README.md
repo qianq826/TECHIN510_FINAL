@@ -56,7 +56,8 @@ Run the Streamlit application:
 ```sh
 streamlit run app.py
 
-**# Reflections
+
+# Reflections
 
 ## What You Learned
 
@@ -75,4 +76,4 @@ streamlit run app.py
 
 - **Web App**: [Circadian Weather App](https://yourappurl.com)
 - **Demo Video**: [Youtube Demo](https://youtube.com/yourdemovideo)
-**
+
