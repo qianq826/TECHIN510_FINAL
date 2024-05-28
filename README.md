@@ -55,9 +55,8 @@ This project aims to enhance well-being by synchronizing indoor lighting with na
 Run the Streamlit application:
 ```sh
 streamlit run app.py
-
-
-# Reflections
+```
+### Reflections
 
 ## What You Learned
 
@@ -74,6 +73,6 @@ streamlit run app.py
 
 ## Links
 
-- **Web App**: [Circadian Weather App](https://yourappurl.com)
+- **Web App**: https://circadianhues.azurewebsites.net
 - **Demo Video**: [Youtube Demo](https://youtube.com/yourdemovideo)
 
