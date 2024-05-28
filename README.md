@@ -1,17 +1,23 @@
 # Circadian Weather App Dashboard
 
-This project is a Streamlit-based web application that adjusts LED colors based on circadian rhythms and weather conditions. It integrates with an ESP32 device via Azure IoT Hub to control the LED colors dynamically.
+**An intuitive app that adjusts your lighting to match your circadian rhythm based on real-time weather and time of day.**
 
-## Features
+## Technologies Used
 
-- Geocodes user-input location to fetch latitude and longitude.
-- Fetches current weather conditions using weather.gov API.
-- Determines the local time based on the geocoded location.
-- Adjusts LED colors based on time of day and weather conditions.
-- Provides a gradient of colors for the entire day.
-- Allows manual control of LED colors via a color picker.
+- Python
+- Streamlit
+- Azure IoT Hub
+- Requests
+- TimezoneFinder
+- Pytz
+- PIL (Pillow)
+- `python-dotenv`
 
-## Setup and Installation
+## Problem Statement
+
+This project aims to enhance well-being by synchronizing indoor lighting with natural circadian rhythms. By adjusting LED colors based on the current time and weather conditions, it helps maintain a healthy sleep-wake cycle and improves productivity and mood.
+
+## How to Run
 
 ### Prerequisites
 
@@ -36,10 +42,10 @@ This project is a Streamlit-based web application that adjusts LED colors based 
     pip install -r requirements.txt
     ```
 
-3. Add your Azure IoT Hub connection string and device ID to the script:
-    ```python
-    connection_string = "HostName=your-iothub-connection-string"
-    device_id = "your-device-id"
+3. Set your Azure IoT Hub connection string and device ID as environment variables:
+    ```sh
+    export IOT_HUB_CONNECTION_STRING="HostName=iotdevice-esp32.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=R0mDqvmO/fU+pxKGyZDw4KSH7z3kibnHjAIoTGqyAew="
+    export DEVICE_ID="Esp32-Wroom"
     ```
 
 4. Add your custom logo image to the `img` directory.
@@ -49,3 +55,19 @@ This project is a Streamlit-based web application that adjusts LED colors based 
 Run the Streamlit application:
 ```sh
 streamlit run app.py
+
+# Reflections
+
+## What You Learned
+Integrating Azure IoT Hub with Python applications.
+Using Streamlit for rapid web application development.
+Implementing geolocation and weather data APIs.
+Enhancing user experience through dynamic and responsive UI design.
+Questions/Problems Faced
+Connection Issues: Establishing a reliable connection to the IoT Hub and ensuring consistent message delivery to the ESP32 device.
+API Rate Limits: Handling API rate limits and errors gracefully while fetching geolocation and weather data.
+Time Zone Handling: Accurately determining and displaying local times for various locations.
+Links
+
+Web App: Circadian Weather App
+Demo Video: Youtube Demo
