@@ -56,18 +56,23 @@ Run the Streamlit application:
 ```sh
 streamlit run app.py
 
-# Reflections
+**# Reflections
 
 ## What You Learned
-Integrating Azure IoT Hub with Python applications.
-Using Streamlit for rapid web application development.
-Implementing geolocation and weather data APIs.
-Enhancing user experience through dynamic and responsive UI design.
-Questions/Problems Faced
-Connection Issues: Establishing a reliable connection to the IoT Hub and ensuring consistent message delivery to the ESP32 device.
-API Rate Limits: Handling API rate limits and errors gracefully while fetching geolocation and weather data.
-Time Zone Handling: Accurately determining and displaying local times for various locations.
-Links
 
-Web App: Circadian Weather App
-Demo Video: Youtube Demo
+- Integrating Azure IoT Hub with Python applications.
+- Using Streamlit for rapid web application development.
+- Implementing geolocation and weather data APIs.
+- Enhancing user experience through dynamic and responsive UI design.
+
+## Questions/Problems Faced
+
+- **Connection Issues**: Establishing a reliable connection to the IoT Hub and ensuring consistent message delivery to the ESP32 device.
+- **API Rate Limits**: Handling API rate limits and errors gracefully while fetching geolocation and weather data.
+- **Time Zone Handling**: Accurately determining and displaying local times for various locations.
+
+## Links
+
+- **Web App**: [Circadian Weather App](https://yourappurl.com)
+- **Demo Video**: [Youtube Demo](https://youtube.com/yourdemovideo)
+**
