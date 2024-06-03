@@ -74,5 +74,5 @@ streamlit run app.py
 ## Links
 
 - **Web App**: https://circadianhues.azurewebsites.net
-- **Demo Video**: [Youtube Demo](https://youtube.com/yourdemovideo)
+- **Demo Video**: https://youtu.be/US8W4sarnNM?si=0E7UhyZngCAYm366
 
