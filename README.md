@@ -2,6 +2,9 @@
 
 **An intuitive app that adjusts your lighting to match your circadian rhythm based on real-time weather and time of day.**
 
+## Team： Sebastian Qian & Yulin Li
+
+
 ## Technologies Used
 
 - Python
